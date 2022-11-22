@@ -1,0 +1,13 @@
+.feynman__subtitle {
+  text-align: center;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  /*в брифе не была задана ширина этого блока,
+  но при расположении его на всю ширину родительского,
+  есть вероятность наложения его текста на текст ссылки,
+  если какой-то из текстов изменится*/
+  max-width: 400px;
+  margin: auto;
+  padding: 0;
+}
